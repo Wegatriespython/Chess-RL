@@ -1,0 +1,13 @@
+Using device: cuda
+Starting training...
+GPU Utilization: 16%, Memory: 0.00GB / 6.00GB
+GPU Utilization: 23%, Memory: 0.01GB / 6.00GB
+GPU Utilization: 25%, Memory: 0.01GB / 6.00GB
+GPU Utilization: 29%, Memory: 0.01GB / 6.00GB
+GPU Utilization: 47%, Memory: 0.01GB / 6.00GB
+GPU Utilization: 62%, Memory: 0.02GB / 6.00GB
+Game 1, Result: -1.0, Loss: 0.0011
+GPU Utilization: 28%, Memory: 0.02GB / 6.00GB
+Game 2, Result: -1.0, Loss: 0.0235
+Time elapsed: 0.00s
+Training complete. Model and stats saved.

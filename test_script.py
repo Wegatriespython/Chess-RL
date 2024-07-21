@@ -32,14 +32,10 @@ def check_files():
     print("\nChecking necessary files...")
     files = [
         "main_training_script.py",
-        "opening_trainer.py",
-        "midgame_trainer.py",
-        "endgame_trainer.py",
         "model.py",
         "mcts.py",
-        "chess_utils.py",
-        "position_evaluation.py"
-    ]
+        "chess_utils.py"
+        ]   
     all_files_present = True
     script_dir = os.path.dirname(os.path.abspath(__file__))
     for file in files:
