@@ -38,9 +38,9 @@ def main(test_mode=False):
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
     # Hyperparameters
-    batch_size = 8 if test_mode else 64
-    num_games = 10 if test_mode else 1000
-    max_moves_per_game = 100 if test_mode else 200
+    batch_size =  256
+    num_games = 30
+    max_moves_per_game = 120
 
     stats = {
         'games_played': 0,

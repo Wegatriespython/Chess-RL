@@ -15,7 +15,7 @@ class Node:
             return float('inf')
         return self.value / self.visits + c_param * np.sqrt(np.log(self.parent.visits) / self.visits) if self.parent else 0
 
-def mcts_search(root, model, board_to_input, device, num_simulations=50):
+def mcts_search(root, model, board_to_input, device, num_simulations=100):
     for _ in range(num_simulations):
         node = root
         # Selection
